@@ -8,6 +8,7 @@ else
     $parameters.IsAvailable = true;
 ```
 
+
 Define it in your module:
 ```javascript
 function onSuccess(hostname) {
