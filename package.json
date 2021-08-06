@@ -1,0 +1,33 @@
+{
+    "name": "cordova-plugin-hostnameinfo",
+    "version": "2.0.0",
+    "description": "This plugin allows you to retrieve the hostname of a device.",
+    "cordova": {
+      "id": "cordova-plugin-hostnameinfo",
+      "platforms": [
+        "android"
+      ]
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/miltinhoc/cordova-plugin-HostnameInfo.git"
+    },
+    "keywords": [
+      "hostname",
+      "ecosystem:cordova",
+      "cordova-android"
+    ],
+    "engines": [
+      {
+        "name": "cordova",
+        "version": ">=3.1.0"
+      }
+    ],
+    "author": "Milton Cardoso",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/miltinhoc/cordova-plugin-HostnameInfo/issues"
+    },
+    "homepage": "https://github.com/miltinhoc/cordova-plugin-HostnameInfo#readme"
+  }
+  

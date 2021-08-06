@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    id="cordova-plugin-hostnameinfo"
+    version="2.0.0">
+
+    <name>HostnameInfo</name>
+    <description>
+    	This plugin allows you to retrieve the hostname of a device.
+	</description>
+
+    <license>MIT</license>
+
+    <keywords>hostname</keywords>
+
+	<engines>
+		<engine name="cordova" version="&gt;=3.1.0" />
+	</engines>
+
+    <js-module src="www/hostnameInfo.js" name="hostnameinfo">
+    	<clobbers target="window.hostnameinfo" />
+    </js-module>
+    
+    <!-- android -->
+    <platform name="android">
+        <config-file target="res/xml/config.xml" parent="/*">
+            <feature name="hostnameinfo">
+                <param name="android-package" value="com.ahold.plugin.hostnameinfo.hostnameinfo"/>
+            </feature>
+        </config-file>
+
+        <config-file target="AndroidManifest.xml" parent="/*">
+            <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+        </config-file>
+
+        <source-file src="src/android/hostnameinfo.java" target-dir="src/com/ahold/plugin/hostnameinfo" />
+    </platform>
+
+</plugin>
