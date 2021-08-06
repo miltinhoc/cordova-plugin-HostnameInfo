@@ -1,5 +1,7 @@
 # cordova-plugin-HostnameInfo
 
+## Outsystems wrapper
+
 Check if plugin is defined:
 ```javascript
 if((typeof(hostnameinfo) === "undefined"))
