@@ -1,6 +1,6 @@
 # cordova-plugin-HostnameInfo
 
-Define it in your modules:
+Define it in your module:
 ```javascript
 function onSuccess(hostname) {
   $parameters.Success = true;
