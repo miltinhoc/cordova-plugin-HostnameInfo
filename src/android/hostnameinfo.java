@@ -53,7 +53,7 @@ public class hostnameinfo extends CordovaPlugin {
             hostname = output.toString();
 
         }catch (Exception ex){
-            callbackContext.error("Error getting the hostname from the shell");
+            callbackContext.error("Error getting the hostname from the shell. Message ->" + ex.getMessage());
         }
 
         callbackContext.success(hostname);
