@@ -9,7 +9,7 @@ function onSuccess(hostname) {
 
 function onError(error) {
   $parameters.Success = false;
-  $$parameters.ErrorMessage = error;
+  $parameters.ErrorMessage = error;
 }
 
 hostnameinfo.getHostname(onSuccess, onError);
