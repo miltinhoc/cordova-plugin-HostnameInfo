@@ -24,7 +24,7 @@ function onError(error) {
 hostnameinfo.getHostname(onSuccess, onError);
 ```
 
-##Extensibility Configurations
+## Extensibility Configurations
 ```json
 {
     "plugin" : {
