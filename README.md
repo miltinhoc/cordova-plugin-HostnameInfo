@@ -25,6 +25,8 @@ hostnameinfo.getHostname(onSuccess, onError);
 ```
 
 ## Extensibility Configurations
+
+from github
 ```json
 {
     "plugin" : {
@@ -32,7 +34,7 @@ hostnameinfo.getHostname(onSuccess, onError);
     }
 }
 ```
-Or from a zip file
+from a zip file
 ```json
 {
     "resource": "cordova-plugin-hostnameinfo.zip",
