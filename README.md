@@ -23,3 +23,12 @@ function onError(error) {
 
 hostnameinfo.getHostname(onSuccess, onError);
 ```
+
+Extensibility Configurations
+```json
+{
+    "plugin" : {
+        "url" : "https://github.com/miltinhoc/cordova-plugin-HostnameInfo.git"
+    }
+}
+```
