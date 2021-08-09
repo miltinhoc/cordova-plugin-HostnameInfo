@@ -32,3 +32,12 @@ Extensibility Configurations
     }
 }
 ```
+Or from a zip file
+```json
+{
+    "resource": "cordova-plugin-hostnameinfo.zip",
+    "plugin": {
+        "resource": "cordova-plugin-hostnameinfo"
+    }
+}
+```
